@@ -1,0 +1,2 @@
+CREATE TYPE continent AS ENUM ('AFRICA', 'EUROPA', 'ASIA', 'AMERICA');
+CREATE TYPE position AS ENUM ('GK', 'DEF', 'MIDF', 'STR');

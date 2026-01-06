@@ -14,7 +14,6 @@
   </properties>
 
   <dependencies>
-    <!-- PostgreSQL Driver -->
     <dependency>
       <groupId>org.postgresql</groupId>
       <artifactId>postgresql</artifactId>
@@ -24,7 +23,6 @@
 
   <build>
     <plugins>
-      <!-- Plugin pour spécifier la version Java -->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
@@ -32,16 +30,6 @@
         <configuration>
           <source>11</source>
           <target>11</target>
-        </configuration>
-      </plugin>
-
-      <!-- Plugin pour exécuter la classe Main -->
-      <plugin>
-        <groupId>org.codehaus.mojo</groupId>
-        <artifactId>exec-maven-plugin</artifactId>
-        <version>3.0.0</version>
-        <configuration>
-          <mainClass>Main</mainClass>
         </configuration>
       </plugin>
     </plugins>
